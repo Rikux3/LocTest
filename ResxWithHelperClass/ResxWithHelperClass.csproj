@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\Strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Strings.de.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Strings.nl.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

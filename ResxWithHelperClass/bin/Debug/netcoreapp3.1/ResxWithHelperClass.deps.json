@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ResxWithHelperClass/1.0.0": {
+        "runtime": {
+          "ResxWithHelperClass.dll": {}
+        },
+        "resources": {
+          "de/ResxWithHelperClass.resources.dll": {
+            "locale": "de"
+          },
+          "nl/ResxWithHelperClass.resources.dll": {
+            "locale": "nl"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ResxWithHelperClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
